@@ -39,12 +39,13 @@ int main()
 			dq.pop_front();
 			dq.pop_front();
 		}
-
+		/**
 		cout << "curyear =" << curyear << endl;
 		int count = 0;
 		for(int i = 0; i < dq.size(); i++)
 			count += dq[i] * 2;
 		cout << count << endl;
+		**/
 	}
 
 	int count = 0;
