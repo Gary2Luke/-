@@ -18,7 +18,7 @@ void Permutation(string &str, int start){
 	}
 }
 
-/*字符串组合*/
+/*字符串组合，字符串组合只适用于字符串各个元素不相等时的情况*/
 void Help(string &str, vector<char> &tmp, int len, int index){
 	if(len == 0){
 		for(int i = 0; i < tmp.size(); i++)
