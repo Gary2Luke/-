@@ -25,7 +25,7 @@ int maxSubMatrix(vector<vector<int> > &nums){
 		for(int m = 0; m < cols; m++)  //每次移动i的时候清除
 			sumOfCol[m] = 0;
 
-		for(int j = i; j < cols; j++){
+		for(int j = i; j < rows; j++){
 			for(int k = 0; k < cols; k++){
 				sumOfCol[k] += nums[j][k];
 			}
